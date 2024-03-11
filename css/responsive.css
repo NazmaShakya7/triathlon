@@ -1,0 +1,103 @@
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    /* For portrait layouts only */
+    header .uk-navbar-nav>li>a {
+        padding: 0 15px;
+    }
+
+    .uk-subnav>*> :first-child {
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .f-15 {
+        font-size: 14px !important;
+    }
+    /* For landscape layouts only */
+    header .uk-navbar-nav>li>a {
+        padding: 0 15px;
+    }
+
+    .uk-subnav>*> :first-child {
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+
+    .uk-pull-top {
+        margin-top: -110px !important;
+        margin-bottom: 20px !important;
+    }
+    .fb-page{
+        height: 500px;
+    }
+}
+
+@media screen and (min-device-width: 640px) and (max-device-width: 820px) {
+
+    .uk-hero{
+        flex-direction: column-reverse !important;
+    }
+    .uk-home{
+        height: 45vh !important;
+    }
+    .uk-home li{
+        height: 45vh !important;
+    }
+    
+}
+
+/*mobile phones*/
+@media screen and (max-device-width: 640px) {
+
+    body,
+    html {
+        font-size: 14px;
+    }
+    .f-38{
+        font-size: 30px !important;
+    }
+    .uk-logo img {
+        width: 140px;
+    }
+
+    .uk-tbltab .uk-tab>*>a {
+        padding: 10px !important;
+    }
+    .uk-pull-top {
+        margin-top: -110px !important;
+        margin-bottom: 20px !important;
+    }
+    .uk-hero{
+        flex-direction: column-reverse !important;
+    }
+    .uk-home .uk-background-cover{
+        background-position: left !important;
+    }
+    .uk-logo img{
+        width: 75px !important;
+    }
+    .uk-main-header{
+        padding: 5px 0 !important;
+    }
+    .uk-media-80 {
+        width: 40% !important;
+        height: 94px;
+        overflow: hidden;
+    }
+    .uk-events{
+        margin-top: 20px !important;
+    }
+    .uk-about .uk-media-300{
+        margin-top: 20px !important;
+    }
+    .uk-padding-large{
+        padding-top: 40px !important;
+        padding-bottom:  40px !important;
+    }
+}
+
+.uk-pull-top {
+    margin-top: -150px;
+}
